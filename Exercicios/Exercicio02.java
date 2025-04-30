@@ -16,7 +16,7 @@ public class Exercicio02 {
         posicao = i;
       }
     }
-    System.out.println("O maior número é o " + posicao + "º número: "+ maior );
+    System.out.println("O maior número é o " + (posicao+1) + "º número: "+ maior );
     sc.close();
   }
   
